@@ -1,7 +1,46 @@
  .fundo_nave{
- 	background-color: #B22222;
+ 	
+ 	background-color: #8C8C8C;
  }
 
- .corcarrosel{
+ .col-md-7{
 	 
+	 margin-top: 10%;
  }
+
+.fundo{
+	background-color: #737373;
+}
+
+.imagemeu{
+	
+	margin-top: 30px;
+}
+
+.rodape{
+ 	background-color: #8C8C8C;
+	 
+}
+
+.titulo{
+	text-align: center;
+	color: black;
+	font-family: Apple Chancery, cursive;
+	font-size: 50px;
+}
+
+.rodape{
+	background-color: #8C8C8C;
+	text-align: center;
+	text-white
+}
+
+.paragrafo{
+	color: black;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+}
+
+.competenciaimg{
+	text-align: center;
+}

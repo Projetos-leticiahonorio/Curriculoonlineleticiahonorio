@@ -13,29 +13,31 @@
     <link rel="stylesheet" href="css/syle.css">
 
     <title>Currículo Leticia Honorio</title>
+    <link rel="icon" type="image/x-icon" href="img/LOGO.png">
   </head>
   <body>
      <nav class="navbar navbar-expand-lg navbar-light fundo_nave">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="img/avatar1.jpg" alt"" width="60" height="64">
+          <img src="img/LOGO.png" alt"" width="90" height="84">
         </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Sobre Mim
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Habilidades</a></li>
-                <li><a class="dropdown-item" href="#">Competencias</a></li>
-                <li><a class="dropdown-item" href="#">Portifolio</a></li>
+                <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
+                <li><a class="dropdown-item" href="#competenciassocio">Competencias</a></li>
+                <li><a class="dropdown-item" href="#hobbies">Hobbies</a></li>
+                <li><a class="dropdown-item" href="#rodape">contato</a></li>
               </ul>
             </li>
           </ul>
@@ -49,26 +51,26 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner" id="inicio">
         <div class="carousel-item active">
-          <img src="img/imagem2.jpg" class="d-block w-100" alt="...">
+          <img src="img/imagem5.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="corcarrosel">Conheça minhas habilidades</h5>
-            <p>.....</p>
+            <h5 class="corcarrosel"></h5>
+            <p></p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/imagem1.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Visite meu portifolio</h5>
-            <p>.....</p>
+            <h5></h5>
+            <p></p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/imagem3.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Entre em Contato</h5>
-            <p>.....</p>
+            <h5></h5>
+            <p></p>
           </div>
         </div>
       </div>
@@ -82,96 +84,151 @@
       </button>
     </div>
 
-    <div class="container">
+  <div class="fundo">
+    <div  id="sobre" class="container">
       <section id="sobre">
+        <div class="sobre">
         <div class="row">
-          <h1 class="text-center">Sobre</h1>
+          <h1 class="titulo">Sobre</h1>
         </div>
         <div class="row">
-          <div class="col-md-4"> 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur tempora a autem, esse sequi blanditiis laboriosam magni dolor corrupti, ipsum eaque fugit tempore. Explicabo labore architecto earum reiciendis officia facere!</p>
-          </div>
-          <div class="col-md-8">
-            <p>Olá, sou a Leticia! Sou de Mauá-SP, e tenho 15 anos. Atualmente estudo na Etec Prof. Maria Cristina Medeiros, estou no primeiro ano do Ensino Médio Técnico com Habilitação em Informática para Internet. Gosto de viajar e conhcer lugares novos, porem eu tenho viado muito pelos livros. Me interresso muito por outras culturas e sempre procuro pesquisar sobre. Busco sempre tentar coisas novas e todas oportunidades de adquirir experiências que aparecer. Sou uma garota que pensa no futuro e que a cada dia se aperfeiçoa para se destacar no mercado de trabalho.</p>
-          </div>
+            <div class="col-md-5"> 
+              <img src="img/teste.jpeg" alt="" class="imagemeu">
+            </div>
+            <div class="col-md-7">
+              <p class="paragrafo">Olá, sou a Leticia! Sou de Mauá-SP, e tenho 15 anos. Atualmente estudo na Etec Prof. Maria Cristina Medeiros, estou no primeiro ano do Ensino Médio Técnico com Habilitação em Informática para Internet. Gosto de viajar e conhecer lugares novos. Adoro ler e ver filmes e series. Me interresso muito por outras culturas e sempre procuro pesquisar sobre. Busco sempre tentar coisas novas e todas oportunidades de adquirir experiências que aparecer.</p>
+            </div>
+        </div>  
         </div>
       </section>
+
       <section id="esp">
-        <div>
-          <h1 class="text-center">Especialidade</h1>
+        <div class="esp">
+        <div class="row" id="habilidades">
+            <h1 class="titulo">Habilidades</h1>
         </div>
         <div class="row">
-          <div class="col-md-3">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-4">
+            <img src="img/photoshop.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-3">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-4">
+            <img src="img/css.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-3">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
-          </div>
-          <div class="col-md-3">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
-          </div>
-        </div>
+          <div class="col-md-4">
+            <img src="img/html.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>     
+        </div>  
+        </div>  
       </section>
+
       <section id="exp">
+        <div class="exp">
         <div>
-          <h1 class="text-center">Experiencias</h1>
+          <h1 class="titulo">Experiencias</h1>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-2">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-2">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-2">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
+          <div class="col-md-2">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          </div>
+          <div class="col-md-2">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          </div>
+          <div class="col-md-2">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          </div>
+        </div>
         </div>
       </section>
+
       <section id="hob">
+        <div class="hob" id="hobbies">
         <div>
-          <h1 class="text-center">Hobbies</h1>
+          <h1 class="titulo">Hobbies</h1>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-3">
+            <img src="img/iconelivros.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-3">
+            <img src="img/iconefilmes.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-3">
+            <img src="img/iconedançar.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
+          <div class="col-md-3">
+            <img src="img/iconecozinhar.png">
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quod adipisci vel tempore aspernatur amet nostrum! Quibusdam voluptate repudiandae autem porro et! Aspernatur excepturi explicabo consequuntur fuga magni illo ea?</p>
-          </div>
+        </div>
         </div>
       </section>
 
       <section id="cont">
+        <div class="cont" id="competenciassocio">
         <div>
-          <h1 class="text-center">Contato</h1>
+          <h1 class="titulo">Competências Socioemocionais</h1>
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <p>Curabitur blandit tincidunt lectus, in fringilla nisi semper quis. Praesent consequat mi id nulla suscipit, ut venenatis justo commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin blandit venenatis velit, vitae congue nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque elementum ac lacus ut faucibus. Sed nec porta risus. Ut iaculis et turpis molestie laoreet. Nunc condimentum eros quis ligula sodales convallis. Pellentesque varius ullamcorper neque. Nullam risus felis, accumsan sed sapien sed, venenatis facilisis dui. Integer sagittis purus molestie, fermentum risus quis, auctor justo. In ultrices eros eget finibus suscipit. Aliquam dictum id enim ac pharetra.</p>
-          </div>
-          <div class="col-md-6">
-            <p>Morbi in ultricies ex. Aliquam elementum dui volutpat metus dignissim iaculis. Integer vitae leo enim. Suspendisse commodo ac nisi quis feugiat. Praesent nec mauris ac tellus porttitor porttitor vitae eget neque. Curabitur viverra magna metus, eget fermentum leo accumsan at. Donec dapibus id dui et ultricies. Fusce et arcu vel eros volutpat volutpat. Vivamus id dolor nulla. In vel cursus orci. Vivamus sit amet nunc et nulla pharetra mollis. Cras placerat consectetur dapibus. Praesent non enim vel nibh sodales laoreet ac ac est. Etiam ullamcorper molestie nisl at volutpat. Aliquam in nibh a libero tincidunt pulvinar consequat in nunc.</p>
+          <div class="col-md-12">
+            <img class="competenciaimg" src="img/determinação.png" alt="">
           </div>
         </div>
       </section>
     </div>
-    
+  </div>  
+
+<footer id="rodape" class="rodape">
+
+  <div class="text-center p-3" style="background-color: #8C8C8C;">
+    <h1 class="titulo">Contato</h1>
+  </div>
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/leticia.honorio.585" role="button"><i class="fab fa-facebook-f"></i>Facebook</a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/PoohPup" role="button"><i class="fab fa-twitter">Twitter</i></a>
+
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/le_honorio__/?hl=pt-br" role="button"><i class="fab fa-instagram"></i>Instagram</a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Projetos-leticiahonorio" role="button"><i class="fab fa-github"></i>GitHub</a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #8C8C8C;">
+    <p class="paragrafo">Gmail: leticiahonorio83@gmail.com</p>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+   
   
     <!-- Optional JavaScript; choose one of the two! -->
 
