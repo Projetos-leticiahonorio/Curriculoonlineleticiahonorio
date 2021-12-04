@@ -13,8 +13,9 @@
 }
 
 .imagemeu{
-	
+	width: 350px;
 	margin-top: 30px;
+	
 }
 
 .rodape{
@@ -25,22 +26,46 @@
 .titulo{
 	text-align: center;
 	color: black;
-	font-family: Apple Chancery, cursive;
+	font-family: 'Pacifico', cursive;
 	font-size: 50px;
 }
 
-.rodape{
+.contato{
 	background-color: #8C8C8C;
 	text-align: center;
-	text-white
+	color: white;
 }
 
 .paragrafo{
 	color: black;
-	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-family: 'Fuzzy Bubbles', cursive;
 	font-size: 20px;
 }
 
 .competenciaimg{
+	margin: 0 auto;
 	text-align: center;
+	width: 950px;
+	height: 100%;
+}
+
+.esp{
+	margin-top: 50px;
+}
+
+.exp{
+	margin-top: 50px;
+}
+
+.hob{
+	margin-top: 50px;
+}
+
+.cont{
+	margin-top: 50px;
+}
+
+.espaço{
+	
+	color:  #737373;
 }
